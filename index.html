@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Online Store</h1>
+        <button id="darkModeBtn">Dark mode</button>
+    </header>
+    <main>
+        <section>
+            <h2>Products</h2>
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <div id="productsList" class="products"></div>
+        </section>
+        <section>
+            <h2>Shopping Cart</h2>
+            <p>Products: <span id="cartCount">0</span></p>
+            <p>Total: $<span id="cartTotal">0</span></p>
+            <div id="cartList"></div>
+            <button id="emptyCartBtn">Empty cart</button>
+        </section>
+    </main>
+</body>
+</html>
